@@ -1,0 +1,62 @@
+/* Custom Propitiates */
+:root {
+    --primario: #D27773;
+    --negro: #3C3C3C;
+    --grisNegro: #636363;
+    --blanco: #FFF6F6;
+    --blancoGris: rgb(235, 235, 235);
+    /* font-family */
+    --fontPrincipal: 'Roboto', sans-serif;
+    --fontSecundario: Lato, sans-serif;
+
+}
+/* Selectores Globales*/
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    scroll-snap-type: y mandatory;
+}
+*,
+*:after,
+*:before {
+    box-sizing: inherit;
+}
+body {
+    font-size: 1.6rem; /* 1rem = 10px*/
+    line-height: 1.5rem;
+    background-image: linear-gradient(
+            to bottom,
+            white 0%,
+            var(--blanco) 100%);
+
+}
+p{
+    font-size: 1.6rem;
+    font-family: var(--fontSecundario);
+    color: var(--grisNegro);
+}
+a{
+    text-decoration: none;
+    color: var(--negro);
+}
+ul{
+    padding-inline-start: 0;
+    list-style-type: none;
+}
+img {
+    max-width: 100%;
+}
+
+h1  {
+    line-height: 22rem;
+    color: var(--blanco);
+    font-size: 2.4rem;
+    font-family: var(--fontPrincipal);
+}
+h2 {
+    font-size: 2rem;
+}
+h3 {
+    font-size: 1.3rem;
+    font-weight: 400;
+}
